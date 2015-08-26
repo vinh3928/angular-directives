@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html ng-app="yoyoDirectiveApp">
+<head>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.js" type="text/javascript"></script>
+  <script src="javascripts/app.js" type="text/javascript"></script>
+</head>
+<body ng-controller="YoyoController">
+  <div ng-repeat="yo in yoyo">
+    <gs-yoyo-details yoyo-data="yo"></gs-yoyo-details>
+    
+  </div>
+</body>
+</html>
